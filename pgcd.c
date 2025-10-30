@@ -9,15 +9,16 @@ printf("donner la valeur de premier nombre :");
 scanf ("%d",&a);
 printf("donner de dexieme nombre :");
 scanf("%d",&b);
-r=a%b;
  /*la détermination de pgcd par la boucle while*/
-while (r!=0){
-    a=b;
-    b=r;
-    r=a%b;
+while (b!=0){
+  r=a%b   ;
+ printf ("a=%d,b=%d,r=a%%b=%d\n",a,b,r);
+    a=b;;/*en remplaçe a par b*/
+    b=r;/*en remplaçe b par r */
 }
   printf("le PGCD des deux nombre est:%d",a);
 }
+
 
 
 
