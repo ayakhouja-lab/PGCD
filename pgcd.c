@@ -16,7 +16,8 @@ while (r!=0){
     b=r;
     r=a%b;
 }
-  printf("le PGCD des deux nombre est:%d",b);
+  printf("le PGCD des deux nombre est:%d",a);
 }
+
 
 
