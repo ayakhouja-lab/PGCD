@@ -17,6 +17,9 @@ while (b!=0){
     b=r;/*en remplaçe b par r */
 }
   printf("le PGCD des deux nombre est:%d",a);
+if (a==1){
+printf ("les deux nombres sont premier entre eux \n");
+return  0;
 }
 
 
