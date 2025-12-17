@@ -28,3 +28,4 @@ printf ("les deux nombres sont premier entre eux \n");
 
 
 
+
